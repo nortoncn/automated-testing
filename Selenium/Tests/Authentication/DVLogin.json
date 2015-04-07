@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://dv.pelabs.net:8500/#/securitymanager/signin"
+      "url": "http://dv.pelabs.net:8502/#/securitymanager/signin"
     },
     {
       "type": "clickElement",
