@@ -16,5 +16,5 @@
       "path": "../Authentication/DVLogout.json"
     }
   ],
-  "shareState": true
+  "shareState": false
 }
