@@ -16,5 +16,5 @@
       "path": "../Authentication/DVLogin.json"
     }
   ],
-  "shareState": false
+  "shareState": true
 }
