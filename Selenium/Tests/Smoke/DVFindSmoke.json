@@ -9,11 +9,11 @@
     },
     {
       "where": "local",
-      "path": "../Find/SampleSearch.json"
+      "path": "../Authentication/DVLogin.json"
     },
     {
       "where": "local",
-      "path": "../Authentication/DVLogout.json"
+      "path": "../Authentication/DVLogin.json"
     }
   ],
   "shareState": false
