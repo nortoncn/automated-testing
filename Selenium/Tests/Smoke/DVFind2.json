@@ -1,0 +1,20 @@
+{
+  "type": "suite",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "where": "github",
+      "path": "../Authentication/DVLogin.json"
+    },
+    {
+      "where": "github",
+      "path": "../Find/SampleSearch.json"
+    },
+    {
+      "where": "github",
+      "path": "../Authentication/DVLogout.json"
+    }
+  ],
+  "shareState": true
+}
