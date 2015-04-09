@@ -8,12 +8,21 @@
       "path": "../Authentication/DVLogin.json"
     },
     {
+<<<<<<< HEAD
       "where": "github",
       "path": "../Authentication/DVLogin.json"
     },
     {
       "where": "github",
       "path": "../Authentication/DVLogin.json"
+=======
+      "where": "local",
+      "path": "../Find/SampleSearch.json"
+    },
+    {
+      "where": "local",
+      "path": "../Authentication/DVLogout.json"
+>>>>>>> parent of e6e5e27... .
     }
   ],
   "shareState": false
