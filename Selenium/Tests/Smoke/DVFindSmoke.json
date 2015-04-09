@@ -9,11 +9,11 @@
     },
     {
       "where": "github",
-      "path": "../Authentication/DVLogin.json"
+      "path": "../Find/SampleSearch.json"
     },
     {
       "where": "github",
-      "path": "../Authentication/DVLogin.json"
+      "path": "../Authentication/DVLogout.json"
     }
   ],
   "shareState": true
