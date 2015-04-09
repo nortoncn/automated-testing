@@ -4,15 +4,15 @@
   "formatVersion": 1,
   "scripts": [
     {
-      "where": "local",
+      "where": "github",
       "path": "../Authentication/DVLogin.json"
     },
     {
-      "where": "local",
+      "where": "github",
       "path": "../Authentication/DVLogin.json"
     },
     {
-      "where": "local",
+      "where": "github",
       "path": "../Authentication/DVLogin.json"
     }
   ],
