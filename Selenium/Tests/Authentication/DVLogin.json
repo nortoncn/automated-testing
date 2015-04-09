@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://dv.pelabs.net:8502/#/securitymanager/signin"
+      "url": "http://dv.pelabs.net:8500/"
     },
     {
       "type": "clickElement",
@@ -21,28 +21,6 @@
         "value": "email"
       },
       "text": "egg@test.com"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "password"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "password"
-      },
-      "text": "test"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "ui-view.ng-scope > div.container.ng-scope"
-      }
     },
     {
       "type": "clickElement",
@@ -54,6 +32,18 @@
     {
       "type": "verifyTextPresent",
       "text": "egg@test.com"
+    },
+    {
+      "type": "storeText",
+      "locator": {
+        "type": "link text",
+        "value": "egg@test.com"
+      },
+      "variable": "emailaddress"
+    },
+    {
+      "type": "print",
+      "text": "${emailaddress} logged in successfully"
     }
   ],
   "data": {

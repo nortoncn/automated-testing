@@ -1,101 +1,20 @@
 {
-  "type": "script",
+  "type": "suite",
   "seleniumVersion": "2",
-  "formatVersion": 2,
-  "steps": [
+  "formatVersion": 1,
+  "scripts": [
     {
-      "type": "get",
-      "url": "http://dv.pelabs.net:8502/"
+      "where": "local",
+      "path": "../Authentication/DVLogin.json"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "email"
-      }
+      "where": "local",
+      "path": "../Find/SampleSearch.json"
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "email"
-      },
-      "text": "egg@test.com"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='panel-body']//button[.='Login']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Sample (1961)"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "searchText"
-      },
-      "text": "rna"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "button.btn.btn-primary"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": ">>"
-      }
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "49"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ol[@class='list-group']/li[6]/ng-include/h4/a"
-      }
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Sample 1428413656468"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "egg@test.com"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Logout"
-      }
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Login"
+      "where": "local",
+      "path": "../Authentication/DVLogout.json"
     }
   ],
-  "data": {
-    "configs": {},
-    "source": "none"
-  },
-  "inputs": [],
-  "timeoutSeconds": 60
+  "shareState": true
 }
