@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://dv.pelabs.net:8502/"
+      "url": "http://dv.pelabs.net:8500/"
     },
     {
       "type": "clickElement",
