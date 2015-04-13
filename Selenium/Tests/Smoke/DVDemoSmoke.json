@@ -37,7 +37,7 @@
       "type": "storeText",
       "locator": {
         "type": "link text",
-        "value": "egg@test.com"
+        "value": "EGG@TEST.COM"
       },
       "variable": "emailaddress"
     },
@@ -91,10 +91,14 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "1000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "${samplelink}"
+        "value": "SAMPLE (1435)"
       }
     },
     {
@@ -115,14 +119,14 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "egg@test.com"
+        "value": "EGG@TEST.COM"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Logout"
+        "value": "LOGOUT"
       }
     },
     {
