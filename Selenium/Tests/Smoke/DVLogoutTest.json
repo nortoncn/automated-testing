@@ -4,10 +4,6 @@
   "formatVersion": 2,
   "steps": [
     {
-      "type": "get",
-      "url": "http://dv.pelabs.net:8502/"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
