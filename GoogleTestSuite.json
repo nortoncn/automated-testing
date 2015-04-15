@@ -4,20 +4,12 @@
   "formatVersion": 1,
   "scripts": [
     {
-      "where": "github",
-<<<<<<< HEAD
-      "path": "nortoncn/nortoncn/automated-testing/master/GoogleTestScript.json"
-    },
-    {
-      "where": "github",
-      "path": "nortoncn/nortoncn/automated-testing/master/GoogleTestScript2.json"
-=======
+      "where": "local",
       "path": "GoogleTestScript.json"
     },
     {
-      "where": "github",
+      "where": "local",
       "path": "GoogleTestScript2.json"
->>>>>>> origin/master
     }
   ],
   "shareState": true
