@@ -4,12 +4,21 @@
   "formatVersion": 1,
   "scripts": [
     {
+<<<<<<< HEAD
       "where": "local",
       "path": "GoogleTestScript.json"
     },
     {
       "where": "local",
       "path": "GoogleTestScript.json"
+=======
+      "where": "github",
+      "path": "GoogleTestScript.json"
+    },
+    {
+      "where": "github",
+      "path": "GoogleTestScript2.json"
+>>>>>>> origin/master
     }
   ],
   "shareState": true
