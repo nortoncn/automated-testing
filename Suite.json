@@ -1,0 +1,16 @@
+{
+  "type": "suite",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "where": "github",
+      "path": "Google1.json"
+    },
+    {
+      "where": "github",
+      "path": "Google2.json"
+    }
+  ],
+  "shareState": true
+}
