@@ -9,12 +9,8 @@
     },
 	{
       "where": "github",
-      "path": "GoogleTestScript.json"
-    }, 
-	{
-      "where": "github",
-      "path": "GoogleTestScript.json"
-    }, 
+      "path": "GoogleTestScript2.json"
+    }
   ],
   "shareState": true
 }
