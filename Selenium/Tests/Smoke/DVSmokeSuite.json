@@ -4,16 +4,16 @@
   "formatVersion": 1,
   "scripts": [
     {
-      "where": "local",
-      "path": "DVLogin.json"
+      "where": "github",
+      "path": "\Selenium\Tests\Smoke\Authentication\DVLogin.json"
     },
     {
-      "where": "local",
-      "path": "DVSmoke.json"
+      "where": "github",
+      "path": "\Selenium\Tests\Smoke\DVSmoke.json"
     },
     {
-      "where": "local",
-      "path": "DVLogout.json"
+      "where": "github",
+      "path": "\Selenium\Tests\Smoke\Authentication\DVLogout.json"
     }
   ],
   "shareState": true
