@@ -9,7 +9,11 @@
     },
     {
       "where": "github",
+<<<<<<< HEAD
       "path": "nortoncn/nortoncn/automated-testing/master/Selenium/Tests/Smoke/DVSmoke.json"
+=======
+      "path": "DVSmoke.json"
+>>>>>>> origin/master
     },
     {
       "where": "github",
