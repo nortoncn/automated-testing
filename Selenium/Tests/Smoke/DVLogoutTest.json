@@ -7,14 +7,14 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "EGG@TEST.COM"
+        "value": "egg@test.com"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "LOGOUT"
+        "value": "Logout"
       }
     }
   ],
