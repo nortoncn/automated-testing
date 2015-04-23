@@ -1,0 +1,20 @@
+{
+  "type": "suite",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "where": "github",
+      "path": "nortoncn/nortoncn/automated-testing/master/Selenium/Tests/Authentication/DVLogin.json"
+    },
+    {
+      "where": "github",
+      "path": "nortoncn/nortoncn/automated-testing/master/Selenium/Tests/Smoke/DVSmoke.json"
+    },
+    {
+      "where": "github",
+      "path": "nortoncn/nortoncn/automated-testing/master/Selenium/Tests/Authentication/DVLogout.json"
+    }
+  ],
+  "shareState": true
+}
