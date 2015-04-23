@@ -4,15 +4,15 @@
   "formatVersion": 1,
   "scripts": [
     {
-      "where": "github",
+      "where": "local",
       "path": "DVLogin.json"
     },
     {
-      "where": "github",
+      "where": "local",
       "path": "DVSmoke.json"
     },
     {
-      "where": "github",
+      "where": "local",
       "path": "DVLogout.json"
     }
   ],
