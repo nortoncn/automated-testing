@@ -6,8 +6,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Google\"]"
+        "type": "xpath",
+        "value": "//div[@id='logocont']/a/img"
       }
     },
     {
@@ -15,8 +15,23 @@
       "waitTime": "1000"
     },
     {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "name",
+        "value": "btnI"
+      },
+      "value": "I'm Feeling Lucky"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "btnI"
+      }
+    },
+    {
       "type": "verifyTextPresent",
-      "text": "UK"
+      "text": "Interactive"
     }
   ],
   "data": {
