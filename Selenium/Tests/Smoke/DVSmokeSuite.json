@@ -5,7 +5,7 @@
   "scripts": [
     {
       "where": "github",
-      "path": "DVLogin.json"
+      "path": "nortoncn/nortoncn/automated-testing/master/Selenium/Tests/Authentication/DVLogin.json"
     },
     {
       "where": "github",
@@ -13,7 +13,7 @@
     },
     {
       "where": "github",
-      "path": "DVLogout.json"
+      "path": "nortoncn/nortoncn/automated-testing/master/Selenium/Tests/Authentication/DVLogout.json"
     }
   ],
   "shareState": true
