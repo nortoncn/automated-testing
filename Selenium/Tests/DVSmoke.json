@@ -27,7 +27,7 @@
       }
     },
     {
-      "type": "storeElementValue",
+      "type": "storeText",
       "step_name": "7.",
       "locator": {
         "type": "xpath",
