@@ -27,13 +27,6 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[2]"
-      }
-    },
-    {
       "type": "storeText",
       "step_name": "7.",
       "locator": {
@@ -43,14 +36,10 @@
       "variable": "NumberOfSamples"
     },
     {
-      "type": "print",
-      "text": "${NumberOfSamples}Samples found by search"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[1]"
+        "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[2]"
       }
     },
     {
@@ -59,6 +48,10 @@
         "type": "link text",
         "value": "Download"
       }
+    },
+    {
+      "type": "print",
+      "text": "${NumberOfSamples} Samples found by search"
     },
     {
       "type": "verifyTextPresent",
