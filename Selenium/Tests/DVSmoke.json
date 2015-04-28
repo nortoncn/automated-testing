@@ -43,15 +43,15 @@
       }
     },
     {
+      "type": "print",
+      "text": "${NumberOfSamples} Samples found by search"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
         "value": "Download"
       }
-    },
-    {
-      "type": "print",
-      "text": "${NumberOfSamples} Samples found by search"
     },
     {
       "type": "verifyTextPresent",
